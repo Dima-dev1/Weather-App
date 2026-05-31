@@ -3,7 +3,7 @@
     <SearchBar @search="handleSearch" />
     <p style="color: #555; font-size: 14px;">{{ lastSearch }}</p>
   </div>
-  <p>Test 123</p>
+  <p style="color: red;">DEPLOY TEST 2</p>
 </template>
 
 <script setup>
