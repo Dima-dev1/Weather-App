@@ -1,5 +1,13 @@
-# Vue 3 + Vite
+# 🌤 Weather App (Vue + Open-Meteo)
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+A modern weather dashboard built with **Vue 3** and **Vite**, using the free **Open-Meteo API**.  
+The app allows users to search any city worldwide and view real-time weather data with a clean, responsive UI.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+## ✨ Features
+
+- 🔍 Global city search (via geocoding API)
+- 🌍 Worldwide weather support (Europe, America, etc.)
+- 🌡 Real-time current weather data
+- 💨 Wind speed and direction
+- 🌧 Weather condition detection (rain, clear, cloudy, etc.)
+- 📱 Fully responsive design (mobile + desktop)
