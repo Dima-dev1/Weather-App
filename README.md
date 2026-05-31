@@ -8,6 +8,4 @@ The app allows users to search any city worldwide and view real-time weather dat
 - 🔍 Global city search (via geocoding API)
 - 🌍 Worldwide weather support (Europe, America, etc.)
 - 🌡 Real-time current weather data
-- 💨 Wind speed and direction
-- 🌧 Weather condition detection (rain, clear, cloudy, etc.)
-- 📱 Fully responsive design (mobile + desktop)
+- 💨 Wind speed and feels like
