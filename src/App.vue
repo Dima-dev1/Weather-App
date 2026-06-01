@@ -57,14 +57,14 @@ async function handleSearch(city) {
     location.value = `${geo.name}, ${geo.country}`
     weather.value = await getWeather(geo.latitude, geo.longitude)
 
-  } catch (e) {
-    error.value = 'Something went wrong'
+  } catch (err) {
+    console.error('Error fetching weather data:', err)
+    error.value = 'Failed to fetch weather data'
   } finally {
     loading.value = false
   }
 }
 
-/* SIMPLE FEELS LIKE (approximation) */
 const feelsLike = computed(() => {
   if (!weather.value) return null
 
